@@ -1,75 +1,30 @@
-# NOMTCH Portfolio
+# NOMTCH Portfolio & Blog
 
-Welcome to the NOMTCH Portfolio documentation. This README provides an overview of the project, including features, technologies used, installation instructions, project structure, and deployment guide.
+Welcome to NOMTCH Portfolio & Blog! This website is built using **Next.js** and **Tailwind CSS**, providing a modern and responsive interface for sharing my projects and ideas.
 
 ## Features
-- **Responsive Design**: The portfolio is designed to work seamlessly on various devices.
-- **Dynamic Content**: Content updates dynamically without requiring a page refresh.
-- **Interactive Elements**: Includes various interactive components that enhance user experience.
-- **Contact Form**: Users can contact the portfolio owner directly through an integrated form.
+- **Fast Performance**: Leveraging the power of Next.js for server-side rendering and static site generation.
+- **Responsive Design**: Utilizes Tailwind CSS for a mobile-first approach, ensuring accessibility across devices.
+- **SEO Friendly**: Optimized for search engines to help your content get discovered.
 
-## Tech Stack
-- **Frontend**: 
-  - HTML
-  - CSS
-  - JavaScript
-  - Frameworks/Libraries: React.js
+## Getting Started
+To get a local copy up and running, follow these steps:
 
-- **Backend**:
-  - Node.js
-  - Express.js
-  - Database: MongoDB
-
-- **Deployment**:
-  - Platform: Heroku
-  - CI/CD: GitHub Actions
-
-## Installation Instructions
-1. Clone the repository:
+1. Clone the repo:
    ```bash
    git clone https://github.com/iammonoz/nomtch-portfolio.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd nomtch-portfolio
-   ```
-3. Install dependencies:
+2. Install NPM packages:
    ```bash
    npm install
    ```
-4. Start the development server:
+3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-## Project Structure
-```
-nomtch-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-```
+## Contributing
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Deployment Guide
-1. Push your code to the main branch:
-   ```bash
-   git push origin main
-   ```
-2. Deploy to Heroku (ensure you have the Heroku CLI installed):
-   ```bash
-   heroku login
-   heroku create your-app-name
-   git push heroku main
-   ```
-3. Open your deployed application:
-   ```bash
-   heroku open
-   ```
-
-For more detailed information, check the official documentation of the respective technologies used.
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
